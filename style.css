@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+  
+:root{
+--red: #d90429;
+--dark-color:#ff002b;
+--black:#444;
+--light-color:#666;
+--border:.1rem solid rgba(0, 0, 0, .1);
+--border-hover:.1rem solid var(--black);
+--box-shadow:0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+
+
+*{
+    font-family: 'Poppins',
+    sans-serif;
+    font-size: 100%;
+     margin:0;
+     padding:0;
+     outline: none;
+     border: none;
+     box-sizing: border-box;
+     text-transform: capitalize;
+     overflow-wrap: break-word;
+     /* overflow-x: hidden; */
+     scroll-behavior: smooth;
+     color: black;
+}
+
+
+.fas{
+display: inline-block;
+font-style: normal;
+text-rendering: auto;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+color: ;
+text-decoration: none;
+vertical-align: middle;
+}
+
+h1{
+    font-size:2.5rem;
+}
+
+p{
+    font-size:small;
+}
+
+/* < !------------------ header ------------------> */
+.nav{
+ padding: 1rem 6%;
+ font-size: x-large;
+}
+
+.containerNav {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    /* padding: 0.rem; */
+}
+
+.logo{
+    color: black;
+   text-decoration: none;
+   font-weight: 700;
+   font-size: x-large;
+}
+
+.containerNav form{
+    border: 0.5px solid rgba(128, 128, 128, 0.400);
+ padding: 0.3rem 0.5rem;
+ border-radius: 5px;
+}
+
+
+#searchBox{
+    padding: 0px 15rem 0px 0px;
+    font-size: medium;
+}
+
+.icons a{
+padding: 0px 0.6rem;
+}
+
+.icons .fas:hover{
+color: var();
+}
+/* < !------------------ header ------------------> */
+
+
+/* < !------------------ navbar ------------------> */
+
+.container1{
+    overflow: hidden;
+    background-color:var(--red) ;
+    display:flex;
+    justify-content:center;
+    vertical-align: middle;
+}
+
+.container1 a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    color: white;
+    padding: 0.8rem;
+}
+
+.dropDown{
+    overflow: hidden;
+}
+
+.dropDown .dropbtn{
+    cursor: pointer;
+    font-size: large;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    color: white;
+    padding: 0.8rem;
+}
+
+.container1 a:hover, .dropDown:hover .dropbtn, .dropbtn:focus{
+    background-color: var(--dark-color);
+}
+
+.dropDownContent{
+    display: none;
+    position: absolute;
+    background-color: var(--red);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px var(--light-color);
+    z-index: 1;
+}
+
+.dropDownContent a{
+    float: none;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.show{
+    display: block;
+}
+
+/* < !------------------ navbar ------------------> */
+
+/* < !------------------ introduction ------------------> */
+.container2{
+    background-image: url(assets/banner-bg.jpg);
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.introWelcome{
+    display:flex;
+   padding-top: 6rem;
+   align-items:flex-end;
+   justify-content: space-around;
+}
+
+.stand{
+    block-size: 8rem;
+}
+
+.welcome{
+margin: 0rem 5rem 12rem 0rem;
+}
+
+.container2 .introWelcome .bookSlider a img{
+height: 15rem;
+}
+
+.container2 .introWelcome .bookSlider a:hover img {
+     -ms-transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+}
+
+.swipeSlide{
+display: inline;    
+
+}
+
+.slideWrapper {
+    display: flex;
+margin: 0rem 1rem;
+width: max-content;
+
+}
+
+.bookSlider{
+    max-width: 37rem;
+    overflow-x: hidden;
+}
+
+/* < !------------------ introduction ------------------> */

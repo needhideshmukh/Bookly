@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookly</title>
+
+    <!-- linked css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontawesome kit fa-5x for size-->
+    <script src="https://kit.fontawesome.com/d65fc820b4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!------------------ header ------------------>
+    <nav>
+        <header class="nav">
+            <div class="containerNav">
+
+                <a href="#" class="logo"> <i class="fas fa-book"></i> Bookly</a>
+
+                <form class="search" action="">
+                    <input type="search" name="" placeholder="Search here..." id="searchBox">
+                    <label for="searchBox" class="fas fa-search"></label>
+                </form>
+
+
+                <div class="icons">
+                    <a href=""><i class="fas fa-heart"></i></a>
+                    <a href=""> <i class="fas fa-shopping-cart"></i></a>
+                    <a href=""> <i class="fas fa-user"></i></a>
+                </div>
+
+            </div>
+        </header>
+    </nav>
+    <!------------------ header ------------------>
+
+
+    <!------------------ navbar ------------------>
+    <div class="container1">
+        <a href="#">Home</a>
+
+        <div class="dropDown">
+            <button class="dropbtn" onclick="dropFunction()">Books</button>
+            <div class="dropDownContent" id="dropContent">
+                <a href="#">Literature</a>
+                <a href="#">Education</a>
+            </div>
+        </div>
+
+        <a href="">E-books</a>
+        <a href="">Reviews</a>
+        <a href="">About Us</a>
+    </div>
+
+
+    <!------------------ navbar ------------------>
+
+    <!------------------ introduction ------------------>
+    <div class="container2">
+        <div class="introWelcome">
+
+            <div class="welcome">
+                <h1>Welcome, NAME</h1>
+                <br>
+                <p>A way to enter the world from reality and fiction, leisure to study and much more....</p>
+            </div>
+
+
+            <!-- <div class="stand"> -->
+            <div class="bookSlider">
+                <div class="slideWrapper">
+                    <a class="swipeSlide" href="#"><img src="assets/book-1.png" alt="" srcset=""></a>
+                    <a class="swipeSlide" href="#"><img src="assets/book-2.png" alt="" srcset=""></a>
+                    <a class="swipeSlide" href="#"><img src="assets/book-3.png" alt="" srcset=""></a>
+                    <a class="swipeSlide" href="#"><img src="assets/book-4.png" alt="" srcset=""></a>
+                    <a class="swipeSlide" href="#"><img src="assets/book-5.png" alt="" srcset=""></a>
+                    <a class="swipeSlide" href="#"><img src="assets/book-6.png" alt="" srcset=""></a>
+                </div>
+                <img class="stand" src="assets/stand.png" alt="" srcset="">
+
+            </div>
+            <!-- </div> -->
+
+
+        </div>
+    </div>
+
+    <!------------------ introduction ------------------>
+
+
+
+</body>
+
+
+
+
+<script src="script.js"></script>
+
+</html>
